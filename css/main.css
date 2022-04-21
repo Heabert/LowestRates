@@ -1,1 +1,15 @@
-/* demo comment */
+/* nav-bar rules */
+.nav-bar{
+    width: 960px;
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  */
