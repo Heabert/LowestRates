@@ -94,23 +94,23 @@ input, select {
     vertical-align:middle;
 }
 
-
-
-/* nav-bar rules */
-
-header{
-    position: fixed;
-    background: #fff;
-    min-width: 100%;
-}
-.nav-bar{
-    /* width: 960px; */
-}
-
-.nav-bar ul li{
+ul li {
     list-style: none;
 }
 
+/* nav-bar rules */
+
+.main-header{
+    position: fixed;
+    background: #fff;
+    min-width: 100%;
+    top: 0;
+}
+
+.nav-bar{
+    margin: 1.5rem 1rem;
+}
+    
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
@@ -118,6 +118,11 @@ header{
 }
 
 /* Cards */
+
+.Items-wrapper {
+    margin: 6rem 5rem;
+}
+
 .item-card{
     display: flex;
     align-items: center;
@@ -128,8 +133,75 @@ header{
 .item-card h3 {
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0;
 
 }
 .item-card p {
     text-align: center;
 }
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.about-image img {
+    width: 80vw;
+    margin: 1.5rem 0;
+}
+
+.about-blurb {
+    margin: 1rem 0;
+}
+
+.about-article {
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+/*  */
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.coin {
+    width: 50px;
+}
+.footer-section {
+    margin: 1rem 0;
+}
+.footer-section p{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .tag {
+    color: #fff;
+    background-color: rgb(126, 115, 115);
+    padding: 3px;
+    margin: 11px 4px;
+    flex-basis: 4rem;
+    text-align: center;
+}
+
+.tag-highlight{
+    background-color: #000;
+    } 
+
+.hr-rule {
+    border-bottom: 1px solid rgb(223, 217, 217);
+}
+
+.blog-list li {
+    margin: 1rem 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Items-wrapper {
+      display:flex;
+    }
+  }
