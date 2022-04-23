@@ -10,16 +10,39 @@
 </head>
 
 <body>
+    <nav class="mobile-nav">
+        <span class="close-menu" onclick="mobileMenuHandler()">Close Menu</span>
+        <ul class="menu-list">
+            
+            <li>
+                <a href="#">Insurance</a>
+            </li>
+            <li>
+                <a href="#">Mortgage</a>
+            </li>
+            <li>
+                <a href="#">Home Insurance</a>
+            </li>
+            <li>
+                <a href="#">Life Property Insurance</a>
+            </li>
+            <li>
+                <a href="#">Auto and Credit Cards</a>
+            </li>
+            <li>
+                <a href="#">Travel Insurance</a>
+            </li>
+        </ul>
+    </nav>
     <header class="main-header">
-
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <span>&#x2630;</span>
+                    <span class="mobile-button" onclick="mobileMenuHandler()">&#x2630;</span>
                 </li>
                 <li>Lowest Rates Test</li>
                 <li>
-                    <p>Login</p>
+                    <p class="login-btn" onclick="loginHandler()">Login</p>
                 </li>
             </ul>
         </nav>
@@ -77,7 +100,7 @@
         </div>
     </section>
     <!-- About Section -->
-    <section class="About">
+    <section class="About hr-rule">
         <h3>About Lowest Rates</h3>
         <figure class="about-image">
             <img src="assets/aboutimg.jpg" alt="group of people">
@@ -101,47 +124,48 @@
             <h3 class="footer-section-heading">Footer</h3>
             <ul>
                 <li>best footer ever!</li>
-                <li>Lowest rates all rights reserve</li>
+                <li>Lowestrates.ca All Rights Reserved</li>
             </ul>
         </section>
         <!--  -->
         <section class="footer-section-two footer-section">
-            <h3 class="-section-heading">Footer</h3>
+            <h3 class="footer-section-heading">BLOGS AND ARTICLES </h3>
             <ul class="blog-list">
                 <li class="hr-rule">
                     <img class="coin" src="assets/coin.jpg" alt="a coin">
-                    <span>article one</span>
+                    <span class="blog-list-span">article 1</span>
                     <br>
-                    <span>Best articles</span>
+                    <p class="blog-list-blurb">Best articles</p>
                 </li>
                 <li>
                     <img class="coin" src="assets/coin.jpg" alt="a coin">
-                    <span>article two</span>
+                    <span class="blog-list-span">article 2</span>
                     <br>
-                    <span>Same good stuff</span>
+                    <p>Same good stuff</p>
                 </li>
             </ul>
         </section>
         <!--  -->
         <section class="footer-section-three footer-section">
-            <h3 class="-section-heading">Insurance types</h3>
-            <p>
+            <h3 class="footer-section-heading">Insurance types</h3>
+            <div class="tags-wrapper">
                 <span class="tag tag-highlight">Home</span>
                 <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-                <span class="tag">Home</span>
-            </p>
-                
+                <span class="tag">auto</span>
+                <span class="tag">car</span>
+                <span class="tag">Toronto</span>
+                <span class="tag">Ontario</span>
+                <span class="tag">Mortgage</span>
+                <span class="tag">insurance</span>
+                <span class="tag">car loans</span>
+                <span class="tag">life insurance</span>
+                <span class="tag">snow bird travel insurance</span>
+                <span class="tag">some long category test list list list list</span>
+                <span class="tag">finance</span>
+                <span class="tag">lowestrates.ca</span>
+                <span class="tag">credit cards</span>
+            </div>
         </section>
-
     </footer>
 
     <script type="text/javascript" src="js/main.js"></script>
